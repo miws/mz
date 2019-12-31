@@ -1,7 +1,11 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
-import store from './store'
+import router from './routers'
+import store from './stores'
+
+import global_ from './global'
+Vue.prototype.GLOBAL = global_
+
 
 Vue.config.productionTip = false
 
